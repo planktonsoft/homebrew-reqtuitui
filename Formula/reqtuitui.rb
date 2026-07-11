@@ -5,21 +5,21 @@ class Reqtuitui < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/planktonsoft/reqtuitui/releases/download/v0.1.1/reqtuitui-aarch64-apple-darwin.tar.xz"
-      sha256 "7acaed7ee43e7f5a494e03d4ffc3431100c3f749f5e5de3e338b03b9c57b6484"
+      sha256 "252dbd6a00c37401c76c87b13e801ccbfc2fdc389cd8b939b83778ef72ea2bce"
     end
     if Hardware::CPU.intel?
       url "https://github.com/planktonsoft/reqtuitui/releases/download/v0.1.1/reqtuitui-x86_64-apple-darwin.tar.xz"
-      sha256 "05817f8c6c625e8f33ccfc414818ec723b401cf626cf7179ed6dc589699493fb"
+      sha256 "d720cd8225ded4ee1d3ff44011e14056b5eab2c6327baaf2c50cc6a7a227e247"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/planktonsoft/reqtuitui/releases/download/v0.1.1/reqtuitui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ae361d953238512b8012c40bcbfad5a3d20523f3f5de14b052b59b31ca2ed0eb"
+      sha256 "b2e30f5fe8190a11284d3652eb1f49bec54fe3dd19a2bfac598ca9e25702cf1b"
     end
     if Hardware::CPU.intel?
       url "https://github.com/planktonsoft/reqtuitui/releases/download/v0.1.1/reqtuitui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "953a75842e57210bf8969f28025e09de19f339e5d57f81b157795c69fad166ea"
+      sha256 "c07fcf2546d0b3cd7eaa575a422019b026407c58dc926a191539189e7ad88dd8"
     end
   end
 
